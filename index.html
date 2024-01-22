@@ -21,13 +21,12 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e7da01d422.js" crossorigin="anonymous"></script>
 
-
 </head>
 
 <body class="font-family: 'Manrope', sans-serif;">
     <!-- Nav Start Here -->
     <header>
-        <div class="navbar bg-base-100 container mx-auto">
+        <div class="navbar bg-base-100 container mx-auto pt-10">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn lg:hidden">
@@ -38,7 +37,7 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 opacity-70 shadow bg-base-100 rounded-box w-52">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Blog</a></li>
@@ -49,7 +48,7 @@
                 <a class="text-4xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu text-base font-normal space-x-6 menu-horizontal px-1">
+                <ul class="menu text-base font-normal space-x-6 menu-horizontal px-1 opacity-70">
                     <li><a>Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Blog</a></li>
@@ -58,23 +57,33 @@
                 </ul>
             </div>
             <div class="navbar-end flex gap-5">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <a class="btn ">Button</a>
+                <i class="fa-solid fa-magnifying-glass opacity-70 text-xl"></i>
+                <a class="btn px-6 py-4 bg-[#FF4240] text-white font-bold">Get Ticket</a>
             </div>
         </div>
+
     </header>
     <!--  Nav End Here -->
 
     <Main class="container mx-auto">
         <!-- Carousel Start Here -->
         <section>
+
             <div class="container mx-auto my-12">
-                <div class="carousel mx-auto">
+                <div class="carousel mx-auto flex">
                     <div id="slide1" class="carousel-item relative w-full">
                         <img src="./images/1.png" class="w-full" />
                         <div class="absolute flex gap-5 transform left-10 right-5 bottom-10">
                             <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
                             <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                        <div class="absolute bottom-10 right-9 bg-black text-white p-8 rounded-xl space-y-2 ">
+                            <h2 class="text-white text-2xl">Meet all the heroes from the field</h2>
+                            <p class="text-[#ffffff99] text-4">Explore hockey's legends: interviews, career highlights, and
+                                <br>
+                            behind-the-scenes
+                            stories of perseverance and triumph on the field.
+                            </p>
                         </div>
                     </div>
                     <div id="slide2" class="carousel-item relative w-full">
@@ -83,12 +92,28 @@
                             <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
                             <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
                         </div>
+                        <div class="absolute bottom-10 right-9 bg-black text-white p-8 rounded-xl space-y-2 ">
+                            <h2 class="text-white text-2xl">Meet all the heroes from the field</h2>
+                            <p class="text-[#ffffff99] text-4">Explore hockey's legends: interviews, career highlights, and
+                                <br>
+                            behind-the-scenes
+                            stories of perseverance and triumph on the field.
+                            </p>
+                        </div>
                     </div>
                     <div id="slide3" class="carousel-item relative w-full">
                         <img src="./images/1.png" class="w-full" />
                         <div class="absolute flex gap-5 transform left-10 right-5 bottom-10">
                             <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
                             <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                        <div class=" absolute bottom-10 right-9 bg-black text-white p-8 rounded-xl space-y-2 ">
+                            <h2 class="text-white text-2xl">Meet all the heroes from the field</h2>
+                            <p class="text-[#ffffff99] text-4">Explore hockey's legends: interviews, career highlights, and
+                                <br>
+                            behind-the-scenes
+                            stories of perseverance and triumph on the field.
+                            </p>
                         </div>
                     </div>
                     <div id="slide4" class="carousel-item relative w-full">
@@ -97,10 +122,23 @@
                             <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
                             <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
                         </div>
+                        <div class=" absolute bottom-10 right-9 bg-black text-white p-8 rounded-xl space-y-2 ">
+                            <h2 class="text-white text-2xl">Meet all the heroes from the field</h2>
+                            <p class="text-[#ffffff99] text-4">Explore hockey's legends: interviews, career highlights, and
+                                <br>
+                            behind-the-scenes
+                            stories of perseverance and triumph on the field.
+                            </p>
+                        </div>
                     </div>
+
                 </div>
-        </section>
+            </div>
+        </section> 
+        
         <!-- Carousel End Here -->
+
+        
     </Main>
     <footer></footer>
 </body>
